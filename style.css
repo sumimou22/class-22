@@ -1,153 +1,88 @@
-body,h1,h2,h3,h4,h5,h6{
-    font-family: 'Work Sans', sans-serif;
-
+/* -----------------header-section-------- */
+.sad{
+    color: #ffffff;
 }
-img{
-    max-width: 100%;
+.banner-section{
+    background-color: #f9f9ff;
+    padding: 40px 0;
 }
-.min{
-    background-color: #f8f9ff;
+.so{
+    color: #40454b;
 }
-/* ---------------header-section----------- */
-
-a.navbar-brand {
-    font-size: 29px;
-    font-weight: 500;
-    margin-right: 62px;
+.one {
+    margin-top: 182px;
 }
-.mou,.oh{
-    font-weight: 900;
-    background-color: blue;
+.mo{
+    background-color: #8490ff;
     color: white;
-    padding: 13px;
-    border-radius: 10px;
-    margin-right: 6px;
 }
-/* ---------------slider-section------------ */
-.slider-section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.678)),url(./tutorial-computer-900x288.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px;
-    
+.btn {
+    margin-top: 20px;
 }
-/* -------------feature-section--------------- */
-.feature-item{
-    height: 300px;
-    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
-    margin-bottom: 10px;
-    
+/* ----------------banner2------------- */
+.text {
+    margin-left: -93px;
 }
-.left-img{
-    width: 40%;
-    overflow: hidden;
-    border-radius: 5px 0 0 5px;
+/* -----------number-section----------- */
+.number-section{
+    background-color:#8490ff ;
+    padding: 40px 0;
+}
+/* -----------pricing section------------ */
+.pricing-section{
+    background-color:#f9f9ff ;
+}
+.price {
+    padding: 12px;
+    margin-top: 24px;
+    background-color: #ffffff;
+}
+.price p {
+    width: 114px;
+    height: 114px;
+    background-color: #f9f9ff;
+    border-radius: 50%;
+    line-height: 95px;
+    padding: 10px 0;
+}
+
+.price ul {
+    margin-left: -30px;
+}
+.price li {
+    list-style: none;
+    line-height: 4;
+    color:#929292 ;
  
 }
-.left-img img{
-    height: 100%;
-    width: auto;
-    max-width: inherit;
-    position: relative;
-    margin-left: -70px;
-
-}
-.right-text{
-    width: 60%;
-    /* padding: 20px; */
-    margin-left: 30px;
-
-}
-/* --------------portfolio-section----------- */
-.portfolio{}
-.portfolio a{
-    position: relative;
-    display: block;
-}
-.portfolio a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: .4s;
-    background-color: rgba(0, 0, 0, 0.616);
-}
-.portfolio a:hover::after{
-    visibility: visible;
-    opacity: 1;
-  
-}
-/*------------- pricing table------------- */
-.pri1{
-    background-color: white;
-    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
-    padding: 50px;
-}
-.pri1 h3{}
-.pri1 h5{
-    margin-top: ;
-}
-.pri1 ul{
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-    margin-bottom: 45px;
-
-}
-.pri1 li{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: #777;
-}
-.pri1 ul li span{
-    color: #5a77dc;
-    font-size: 20px;
-    width: 40px;
-    font-weight: bold;
-    display: inline-block;
-}
-.pri1 .btn{
-    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
-}
-/* -----------appli-section--------- */
-.appli-section{
-    
-}
-.author{
-    width: 250px;
-}
-.auther img{
-    margin-left: 40px;
-}
-.user{
-    position: relative;
-    top: 20px;
-}
-.que{
-    font-size: 70px;
-    color: #f3f2f3;
-}
-/* ---------------team-section------------ */
+/* -----------team-section-------- */
 .team {
-    margin-top: 70px;
-    
+    padding-top: 42px;
+}
+.card {
+    padding-bottom: 31px;
 }
 .card img {
-    width: 114px;
-    margin-top: -44px;
+    margin-top: -39px;
+    margin-left: 10px;
+    margin-bottom: 22px;
 }
-/* ------------app-section------------- */
-/* .mo{
-    color: white;
-    background-color: #4d882b;
+/* ---------form-section---------- */
+.form-section{
+    background-color: #f9f9ff;
 }
-.mo:hover{
-    background-color: white;
-    border: 1px solid #4d882b;
-    color: #4d882b;
-} */
+.mu{
+    background-color: #17a2b8;
+}
+.touch {
+    margin-top: 77px;
+    margin-left: -18px;
+}
+.touch h5 {
+    color: #6c6f73;
+    margin-left: 33px;
+}
+
+.touch li{
+    list-style: none;
+}
